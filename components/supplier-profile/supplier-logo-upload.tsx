@@ -93,6 +93,9 @@ export function SupplierLogoUpload({ value, onChange, companyId }: SupplierLogoU
             <img
               src={value}
               alt={t('supplierProfile.logoCurrentAlt')}
+              width={80}
+              height={80}
+              decoding="async"
               className="h-full w-full object-cover"
             />
           ) : (

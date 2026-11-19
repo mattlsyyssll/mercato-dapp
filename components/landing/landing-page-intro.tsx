@@ -33,7 +33,7 @@ export function LandingPartnersStrip({ variant = 'section' }: LandingPartnersStr
               )}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/trustless-work-logo.png" alt="" width={28} height={28} className={cn('h-7 w-auto object-contain', isHero && 'dark:brightness-0 dark:invert')} />
+              <img src="/trustless-work-logo.png" alt="" width={31} height={28} loading="lazy" decoding="async" className={cn('h-7 w-auto object-contain', isHero && 'dark:brightness-0 dark:invert')} />
               <span className={cn('text-sm font-semibold', isHero ? 'text-foreground/70 group-hover:text-foreground dark:text-white/60 dark:group-hover:text-white' : 'text-foreground/70 group-hover:text-foreground')}>Trustless Work</span>
             </a>
             <a
@@ -43,7 +43,7 @@ export function LandingPartnersStrip({ variant = 'section' }: LandingPartnersStr
               className="opacity-50 transition-all duration-300 hover:opacity-100 hover:scale-105"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/etherfuse-logo.svg" alt="Etherfuse" height={24} className="h-6 w-auto object-contain dark:invert" />
+              <img src="/etherfuse-logo.svg" alt="Etherfuse" width={96} height={24} loading="lazy" decoding="async" className="h-6 w-24 object-contain dark:invert" />
             </a>
             <a
               href="https://defindex.io"
@@ -53,7 +53,7 @@ export function LandingPartnersStrip({ variant = 'section' }: LandingPartnersStr
             >
               <span className="flex items-center rounded-lg bg-brand-dark px-3 py-1.5 dark:bg-transparent dark:px-0 dark:py-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/defindex-logo.svg" alt="DeFindex" height={28} className="h-7 w-auto object-contain" />
+                <img src="/defindex-logo.svg" alt="DeFindex" width={135} height={28} loading="lazy" decoding="async" className="h-7 w-auto object-contain" />
               </span>
             </a>
           </div>

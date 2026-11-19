@@ -86,6 +86,8 @@ export function AdminEventQrCard({ event }: AdminEventQrCardProps) {
           <img
             src={qrDataUrl}
             alt={t('adminLeads.qr.previewAlt', { event: event.slug })}
+            width={192}
+            height={192}
             className="h-48 w-48"
           />
         ) : (

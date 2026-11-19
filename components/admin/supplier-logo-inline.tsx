@@ -52,6 +52,10 @@ export function SupplierLogoInline({
         <img
           src={logoUrl as string}
           alt={alt}
+          width={20}
+          height={20}
+          loading="lazy"
+          decoding="async"
           className="h-full w-full object-cover"
           onError={() => setImageError(true)}
         />
